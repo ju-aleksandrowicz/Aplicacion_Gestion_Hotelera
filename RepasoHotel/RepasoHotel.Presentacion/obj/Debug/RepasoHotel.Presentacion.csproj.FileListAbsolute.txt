@@ -1,0 +1,34 @@
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.AssemblyReference.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.SuggestedBindingRedirects.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.exe.config
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.exe
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Entidades.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Negocio.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Datos.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Entidades.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Negocio.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Datos.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.CopyComplete
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.exe
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.pdb
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.exe.config
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.exe
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Presentacion.pdb
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Entidades.dll
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Negocio.dll
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Datos.dll
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Entidades.pdb
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Negocio.pdb
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\RepasoHotel.Datos.pdb
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.AssemblyReference.cache
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.SuggestedBindingRedirects.cache
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.csproj.CopyComplete
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.exe
+D:\Documents\GitHub\CAI-TP_GRUPAL_FINAL-Hotel\RepasoHotel\RepasoHotel.Presentacion\obj\Debug\RepasoHotel.Presentacion.pdb

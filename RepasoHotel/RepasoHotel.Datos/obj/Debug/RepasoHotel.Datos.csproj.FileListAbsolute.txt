@@ -1,0 +1,11 @@
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\RepasoHotel.Datos.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\RepasoHotel.Datos.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\RepasoHotel.Entidades.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\RepasoHotel.Entidades.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\obj\Debug\RepasoHotel.Datos.csproj.AssemblyReference.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\obj\Debug\RepasoHotel.Datos.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\obj\Debug\RepasoHotel.Datos.csproj.CopyComplete
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\obj\Debug\RepasoHotel.Datos.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Datos\obj\Debug\RepasoHotel.Datos.pdb

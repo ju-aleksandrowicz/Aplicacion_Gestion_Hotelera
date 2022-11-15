@@ -1,0 +1,6 @@
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\bin\Debug\RepasoHotel.Entidades.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\bin\Debug\RepasoHotel.Entidades.pdb
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\obj\Debug\RepasoHotel.Entidades.csproj.AssemblyReference.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\obj\Debug\RepasoHotel.Entidades.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\obj\Debug\RepasoHotel.Entidades.dll
+D:\Documents\GitHub\Repaso - TP Grupal - Hotel\RepasoHotel\RepasoHotel.Entidades\obj\Debug\RepasoHotel.Entidades.pdb
