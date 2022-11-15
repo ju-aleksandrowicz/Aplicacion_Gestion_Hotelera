@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Entidades
+namespace ProyectoHotel.Entidades
 {
     public class Habitacion
     {
@@ -43,11 +43,13 @@ namespace RepasoHotel.Entidades
                 "Id Hotel: {1}" + Environment.NewLine +
                 "Categoría: {2}" + Environment.NewLine +
                 "Cantidad de plazas: {3}" + Environment.NewLine +
-                "Precio: {4}" + Environment.NewLine,
+                "Cancelación: {4}" + Environment.NewLine +
+                "Precio: {5}" + Environment.NewLine,
                 this.Id,
                 this.IdHotel,
                 this.Categoria,
                 this.CantidadPlazas,
+                this.Cancelacion ? "SÍ" : "NO",
                 this.Precio
                 )
                 ;

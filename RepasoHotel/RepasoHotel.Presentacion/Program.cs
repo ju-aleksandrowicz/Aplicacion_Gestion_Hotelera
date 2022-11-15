@@ -1,5 +1,5 @@
-﻿using RepasoHotel.Entidades;
-using RepasoHotel.Negocio;
+﻿using ProyectoHotel.Entidades;
+using ProyectoHotel.Negocio;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
@@ -8,7 +8,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Presentacion
+namespace ProyectoHotel.Presentacion
 {
     internal class Program
     {

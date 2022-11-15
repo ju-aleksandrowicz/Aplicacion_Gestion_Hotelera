@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using RepasoHotel.Entidades;
+using ProyectoHotel.Entidades;
 
 using Newtonsoft.Json;
 using System.Collections.Specialized;
 using EjercicioClientes.AccesoDatos.Utilidades;
 using System.Diagnostics.Contracts;
 
-namespace RepasoHotel.Datos
+namespace ProyectoHotel.Datos
 {
     public class ClienteDatos
     {

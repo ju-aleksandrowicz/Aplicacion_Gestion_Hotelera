@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Presentacion
+namespace ProyectoHotel.Presentacion
 {
     internal static class MenuHelper
     {

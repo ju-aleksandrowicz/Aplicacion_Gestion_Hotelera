@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{858F9F8D-98D5-4E82-8DFE-EF722813BEE9}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>RepasoHotel.Presentacion</RootNamespace>
-    <AssemblyName>RepasoHotel.Presentacion</AssemblyName>
+    <ProjectGuid>{587B4991-917F-434B-9B74-9EBC25951EB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RepasoHotel.Datos</RootNamespace>
+    <AssemblyName>RepasoHotel.Datos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -33,7 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,23 +45,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuHelper.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ClienteDatos.cs" />
+    <Compile Include="HabitacionDatos.cs" />
+    <Compile Include="HotelDatos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidacionesInputHelper.cs" />
+    <Compile Include="ReservaDatos.cs" />
+    <Compile Include="Utilidades\WebHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RepasoHotel.Entidades\RepasoHotel.Entidades.csproj">
+    <ProjectReference Include="..\RepasoHotel.Entidades\ProyectoHotel.Entidades.csproj">
       <Project>{3bcd516b-adb6-43c6-a4c1-e622d25a0ea8}</Project>
-      <Name>RepasoHotel.Entidades</Name>
+      <Name>ProyectoHotel.Entidades</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RepasoHotel.Negocio\RepasoHotel.Negocio.csproj">
-      <Project>{354db57c-ddc0-4d84-9a83-23bd1e391d49}</Project>
-      <Name>RepasoHotel.Negocio</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

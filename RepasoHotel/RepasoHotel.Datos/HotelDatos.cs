@@ -1,6 +1,6 @@
 ﻿using EjercicioClientes.AccesoDatos.Utilidades;
 using Newtonsoft.Json;
-using RepasoHotel.Entidades;
+using ProyectoHotel.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Datos
+namespace ProyectoHotel.Datos
 {
     public class HotelDatos
     {

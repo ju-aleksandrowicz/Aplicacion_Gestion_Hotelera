@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
-namespace RepasoHotel.Entidades
+namespace ProyectoHotel.Entidades
 {
     [DataContract]
     public class Cliente : Persona

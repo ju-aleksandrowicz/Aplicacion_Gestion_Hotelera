@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Negocio.Excepciones
+namespace ProyectoHotel.Negocio.Excepciones
 {
     public class ObjetoExistenteException : Exception
     {

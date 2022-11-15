@@ -1,13 +1,13 @@
-﻿using RepasoHotel.Datos;
-using RepasoHotel.Entidades;
-using RepasoHotel.Negocio.Excepciones;
+﻿using ProyectoHotel.Datos;
+using ProyectoHotel.Entidades;
+using ProyectoHotel.Negocio.Excepciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Negocio
+namespace ProyectoHotel.Negocio
 {
     public class HotelNegocio
     {

@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RepasoHotel.Presentacion
+namespace ProyectoHotel.Presentacion
 {
     internal static class ValidacionesInputHelper
     {

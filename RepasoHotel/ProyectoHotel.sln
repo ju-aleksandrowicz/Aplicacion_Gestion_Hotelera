@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepasoHotel.Presentacion", "RepasoHotel.Presentacion\RepasoHotel.Presentacion.csproj", "{858F9F8D-98D5-4E82-8DFE-EF722813BEE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel.Presentacion", "RepasoHotel.Presentacion\ProyectoHotel.Presentacion.csproj", "{858F9F8D-98D5-4E82-8DFE-EF722813BEE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepasoHotel.Negocio", "RepasoHotel.Negocio\RepasoHotel.Negocio.csproj", "{354DB57C-DDC0-4D84-9A83-23BD1E391D49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel.Negocio", "RepasoHotel.Negocio\ProyectoHotel.Negocio.csproj", "{354DB57C-DDC0-4D84-9A83-23BD1E391D49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepasoHotel.Datos", "RepasoHotel.Datos\RepasoHotel.Datos.csproj", "{587B4991-917F-434B-9B74-9EBC25951EB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel.Datos", "RepasoHotel.Datos\ProyectoHotel.Datos.csproj", "{587B4991-917F-434B-9B74-9EBC25951EB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepasoHotel.Entidades", "RepasoHotel.Entidades\RepasoHotel.Entidades.csproj", "{3BCD516B-ADB6-43C6-A4C1-E622D25A0EA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoHotel.Entidades", "RepasoHotel.Entidades\ProyectoHotel.Entidades.csproj", "{3BCD516B-ADB6-43C6-A4C1-E622D25A0EA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
