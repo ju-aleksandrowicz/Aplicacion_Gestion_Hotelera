@@ -59,3 +59,5 @@ Lo que Texan consideraba crítico, y su equipo también, eran las reservas de la
 ## 4. Metodología y características técnicas del desarrollo ⚙️
 
 Explicamos como trabajamos y que usamos (visual, github, etc). problemas que surgieron y soluciones.
+
+Para la metodologia de trabajo obviamente usamos Github como herramienta pero desde un principio optamos por dividirnos las capas armando una estructura inicial con las capas de Entidades, Negocio y Presentacion, lo cual nos permitio despreocuparnos por el manejo de las diferentes versiones y que nadie pisara el trabajo de otro. 
