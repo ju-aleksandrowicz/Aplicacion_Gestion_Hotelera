@@ -162,9 +162,20 @@ namespace ProyectoHotel.Presentacion
             {
                 _idCliente = 1;
             }
-            else //Si la lista de clientes no está vacía le indico que asigne el código de cliente + 1 partiendo del último cliente de la lista
+
+            else //Si la lista de clientes no está vacía le indico que asigne el código de cliente + 1 partiendo del ID de cliente más alto la lista del web service
             {
-                _idCliente = _listadoClientes.Last().Id + 1;
+                int _maxIdCliente = 0;
+
+                foreach (Cliente c in _listadoClientes)
+                {
+                    if (c.Id > _maxIdCliente)
+                    {
+                        _maxIdCliente = c.Id;
+                    }
+                }
+
+                _idCliente = _maxIdCliente + 1;
             }
 
             do //Pido el DNI del cliente al usuario y lo valido
@@ -370,13 +381,24 @@ namespace ProyectoHotel.Presentacion
 
             _listadoHabitaciones = Ha.GetLista(_idHotelValidado.ToString()); //Traigo la lista de habitaciones por hotel de la capa de negocio
 
-            if (_listadoHabitaciones.Count == 0)
+            if (_listadoHabitaciones.Count == 0) //Si la lista de habitaciones está vacía le indico que se asigne el código de habitación #01 a la nueva habitación
             {
                 _idHabitacion = 1;
             }
-            else
+
+            else //Si la lista de habitaciones no está vacía le indico que asigne el código de habitación + 1 partiendo del ID de habitación más alto la lista del web service
             {
-                _idHabitacion = _listadoHabitaciones.Last().Id + 1; //Le asigno el código de habitación + 1 partiendo de la última habitación de la lista
+                int _maxIdHabitacion = 0;
+
+                foreach (Habitacion ha in _listadoHabitaciones)
+                {
+                    if (ha.Id > _maxIdHabitacion)
+                    {
+                        _maxIdHabitacion = ha.Id;
+                    }
+                }
+
+                _idHabitacion = _maxIdHabitacion + 1;
             }
 
             do
@@ -483,7 +505,7 @@ namespace ProyectoHotel.Presentacion
             string _direccionHotel;
             string _cantidadEstrellas;
             int _cantidadEstrellasValidada = 0;
-            string _opcionAmenities;
+            string _opcionAmenities = "";
             bool _tieneAmenities = false;
             //---------------------------------------------------
 
@@ -493,9 +515,20 @@ namespace ProyectoHotel.Presentacion
             {
                 _idHotel = 1;
             }
-            else //Si la lista de hoteles no está vacía le indico que asigne el código de hotel + 1 partiendo del último hotel de la lista
+
+            else //Si la lista de hoteles no está vacía le indico que asigne el código de hotel + 1 partiendo del ID de hotel más alto la lista del web service
             {
-                _idHotel = _listadoHoteles.Last().Id + 1;
+                int _maxIdHotel = 0;
+
+                foreach (Hotel ho in _listadoHoteles)
+                {
+                    if (ho.Id > _maxIdHotel)
+                    {
+                        _maxIdHotel = ho.Id;
+                    }
+                }
+
+                _idHotel = _maxIdHotel + 1;
             }
 
 
@@ -529,7 +562,6 @@ namespace ProyectoHotel.Presentacion
             do //Pido al usuario las amenities del hotel y lo valido
             {
                 Console.WriteLine("Ingrese '1' si el hotel a agregar posee amenities y '2' si no posee amenities (Recuerde que los hoteles con 2 o menos estrellas NO pueden tener amenities y los hoteles con 3 o más estrellas DEBEN tener amenities)");
-                _opcionAmenities = Console.ReadLine();
 
                 _flag = ValidacionesInputHelper.FuncionValidacionOpcionAmenities(ref _opcionAmenities, ref _tieneAmenities);
 
@@ -627,9 +659,19 @@ namespace ProyectoHotel.Presentacion
             {
                 _idReserva = 1;
             }
-            else
+            else //Si la lista de reservas no está vacía le indico que asigne el código de reserva + 1 partiendo del ID de reserva más alto la lista del web service
             {
-                _idReserva = _listadoReservas.First().Id + 1; //Si la lista de reservas no está vacía le indico que asigne el código de reserva + 1 partiendo de la última reserva de la lista (que es la primera del listado del web service)
+                int _maxIdReserva = 0;
+
+                foreach (Reserva r in _listadoReservas)
+                {
+                    if (r.Id > _maxIdReserva)
+                    {
+                        _maxIdReserva = r.Id;
+                    }
+                }
+
+                _idReserva = _maxIdReserva + 1;
             }
 
             do //Muestro los clientes en pantalla para que el usuario ingrese el DNI de un cliente (se valida el DNI) para la reserva a agregar
@@ -664,7 +706,10 @@ namespace ProyectoHotel.Presentacion
 
                 if (_idCliente == 0) //Si el ID de cliente sigue en su valor por defecto quiere decir que el DNI ingresado no corresponde a ningún cliente registrado, por lo cual le aviso al usuario que ingrese un DNI valido o se registre como cliente.
                 {
-                    Console.WriteLine("El DNI ingresado no corresponde a ningún cliente registrado en el Sistema, intente nuevamente.");
+                    Console.WriteLine("El DNI ingresado no corresponde a ningún cliente registrado en el Sistema, presione Enter para intente nuevamente.");
+
+                    Console.ReadKey();
+                    Console.Clear();
 
                     _flag = false;
                 }

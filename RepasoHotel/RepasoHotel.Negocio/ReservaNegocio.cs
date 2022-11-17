@@ -91,7 +91,12 @@ namespace ProyectoHotel.Negocio
 
                 foreach (Habitacion h in _totalHabitaciones)
                 {
-                    if (nuevaReserva.IdHabitacion == h.Id)
+                    if (_totalHabitaciones.Find(reg => reg.Id == nuevaReserva.IdHabitacion) == null)
+                    {
+                        throw new HabitacionInvalidaException();
+                    }
+
+                    else if (nuevaReserva.IdHabitacion == h.Id)
                     {
                         if (nuevaReserva.CantidadHuespedes > h.CantidadPlazas) //Regla de negocio para validar que la cantidad de huespedes de la reserva no supere la cantidad de plazas que posee la habitación a reservar
                         {

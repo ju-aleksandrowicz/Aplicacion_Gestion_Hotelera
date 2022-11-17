@@ -35,12 +35,21 @@ namespace ProyectoHotel.Negocio
         {
             //Declaración de variables
             List<Habitacion> _totalHabitaciones = new List<Habitacion>();
+            HotelDatos _hotelDatos = new HotelDatos();
+            List<Hotel> _totalHoteles = new List<Hotel>();
 
             _totalHabitaciones = _habitacionDatos.TraerPorHotel(nuevaHabitacion.IdHotel.ToString()); //Traigo la lista total de habitaciones por hotel de la capa de datos y la guardo en la lista '_totalHabitaciones'
+
+            _totalHoteles = _hotelDatos.Traer(888086); //Traigo la lista total de hoteles de la capa de datos y la guardo en la lista '_totalHoteles'
 
             if (nuevaHabitacion == null) //Si el objeto que llega por parámetro es nulo se lo comunico al usuario mediante una excepción custom
             {
                 throw new HabitacionInvalidaException();
+            }
+
+            else if (_totalHoteles.Find(reg => reg.Id == nuevaHabitacion.IdHotel) == null) //Si el ID de hotel que llega por parámetro no coincide con ningún ID de hotel existente se lo comunico al usuario mediante una excepción custom
+            {
+                throw new ObjetoInvalidoException("Hotel");
             }
 
             else if (_totalHabitaciones.Find(reg => reg.Id == nuevaHabitacion.Id) != null) //Si dentro de la lista de habitaciones encuentro alguna que tenga el mismo id que la nueva habitación se lo comunico al usuario mediante una excepción custom
