@@ -102,7 +102,7 @@ namespace ProyectoHotel.Negocio
 
                 foreach (Hotel ho in _totalHoteles)
                 {
-                    if (_totalHoteles.Find(reg => reg.Id.ToString() == idHotel) == null)
+                    if (_totalHoteles.Find(reg => reg.Id.ToString() == idHotel) == null) //Regla de negocio: Busco en todos los hoteles por ID de hotel y valido si NO existe ningún hotel que coincida con el ID de hotel ingresado por el usuario.  En ese caso es un error y se lo comunico al usuario mediante una excepción custom.
                     {
                         throw new HotelInvalidoException();
                     }
@@ -110,7 +110,7 @@ namespace ProyectoHotel.Negocio
 
                 foreach (Habitacion h in _totalHabitaciones)
                 {
-                    if (_totalHabitaciones.Find(reg => reg.Id == nuevaReserva.IdHabitacion) == null)
+                    if (_totalHabitaciones.Find(reg => reg.Id == nuevaReserva.IdHabitacion) == null) //Regla de negocio: Si NO existe ninguna habitación que coincida con el ID de habitación ingresado por el usuario es un error y se lo comunico al usuario mediante una excepción custom.
                     {
                         throw new HabitacionInvalidaException();
                     }

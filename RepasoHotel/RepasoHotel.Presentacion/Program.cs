@@ -881,7 +881,7 @@ namespace ProyectoHotel.Presentacion
                         ;
                 }
 
-                foreach (Cliente c in _listadoClientes)
+                foreach (Cliente c in _listadoClientes) //Recorro todos los clientes para asignarle el nombre y apellido al cliente según el ID de cliente que ingresó el usuario
                 {
                     if (c.Id == _idClienteValidado)
                     {
