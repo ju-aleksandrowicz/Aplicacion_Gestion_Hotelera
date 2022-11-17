@@ -629,7 +629,7 @@ namespace ProyectoHotel.Presentacion
             }
             else
             {
-                _idReserva = _listadoReservas.Last().Id + 1; //Si la lista de reservas no está vacía le indico que asigne el código de reserva + 1 partiendo de la última reserva de la lista
+                _idReserva = _listadoReservas.First().Id + 1; //Si la lista de reservas no está vacía le indico que asigne el código de reserva + 1 partiendo de la última reserva de la lista (que es la primera del listado del web service)
             }
 
             do //Muestro los clientes en pantalla para que el usuario ingrese el DNI de un cliente (se valida el DNI) para la reserva a agregar
