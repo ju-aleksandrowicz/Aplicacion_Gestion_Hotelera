@@ -46,6 +46,7 @@
     <Compile Include="Excepciones\CantidadEstrellasException.cs" />
     <Compile Include="Excepciones\CantidadHabitacionesPorHotelException.cs" />
     <Compile Include="Excepciones\ClienteExistenteException.cs" />
+    <Compile Include="Excepciones\FechasInvalidasReservaException.cs" />
     <Compile Include="Excepciones\HabitacionReservadaException.cs" />
     <Compile Include="Excepciones\HabitacionSinEspacioException.cs" />
     <Compile Include="Excepciones\ObjetoExistenteException.cs" />

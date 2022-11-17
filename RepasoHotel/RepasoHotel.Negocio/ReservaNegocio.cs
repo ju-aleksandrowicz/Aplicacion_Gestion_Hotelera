@@ -1,6 +1,7 @@
 ﻿using ProyectoHotel.Datos;
 using ProyectoHotel.Entidades;
 using ProyectoHotel.Negocio.Excepciones;
+using RepasoHotel.Negocio.Excepciones;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -69,6 +70,11 @@ namespace ProyectoHotel.Negocio
             else if (_totalReservas.Find(reg => reg.Id == nuevaReserva.Id) != null) //Regla de negocio: Si dentro de la lista de reservas encuentro alguna que tenga el mismo id que la nueva reserva se lo comunico al usuario mediante una excepción custom
             {
                 throw new ObjetoExistenteException("Reserva", nuevaReserva.Id);
+            }
+
+            else if (nuevaReserva.FechaEgreso < nuevaReserva.FechaIngreso) //Regla de negocio: Si la fecha de egreso para la nueva reserva es menor a la fecha de ingreso entonces es un error y se lo comunico al usuario mediante una excepción custom
+            {
+                throw new FechasInvalidasReservaException(nuevaReserva.FechaIngreso, nuevaReserva.FechaEgreso);
             }
 
             else
