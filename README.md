@@ -60,4 +60,10 @@ Lo que Texan consideraba crítico, y su equipo también, eran las reservas de la
 
 Explicamos como trabajamos y que usamos (visual, github, etc). problemas que surgieron y soluciones.
 
-Para la metodologia de trabajo obviamente usamos Github como herramienta pero desde un principio optamos por dividirnos las capas armando una estructura inicial con las capas de Entidades, Negocio y Presentacion, lo cual nos permitio despreocuparnos por el manejo de las diferentes versiones y que nadie pisara el trabajo de otro. 
+Para la metodologia de trabajo obviamente usamos Github como herramienta pero desde un principio optamos por dividirnos las capas armando una estructura inicial con las capas de Entidades, Negocio y Presentacion, lo cual nos permitio despreocuparnos por el manejo de las diferentes versiones y que nadie pisara el trabajo de otro.
+
+Al comienzo surgieron problemas para entender como trabajar colaborativamente con Github ya que nunca lo habíamos hecho en equipo, pero lo que fuimos entendiendo es que siempre hay que "pullear" del repositorio compartido para tener los últimos cambios y una vez que terminamos de introducir los cambios realizamos un "push" para que se suban esos cambios a Github.
+
+Adicionalmente, también hubo inconvenientes para entender el desarrollo de cada integrante de los equipos al momento de realizar controles en las capas de cada integrante, por lo cuál ahí la solución fue documentar el código mediante comentarios concisos e inteligentes, reuniones semanales de 30 minutos para poner en común con el equipo el significado del código y la utilización de convenciones estándar para que todos estemos en la misma sintonía.
+
+Por último, al momento donde el programa ya compilaba, nos dedicamos a ver como se daba la conexión con el WebService y si los datos enviados/recibidos eran correctos. Ahí surgieron algunos problemas también donde los sorteamos a través de la utilización de mismos nombres para propiedades del programa y los atributos del JSON (dado que es Case Sensitive y por eso no nos devolvía algunos valores), validaciones adicionales para que el programa quede más sólido y pruebas en el WebService para considerar todas las alternativas posibles de ingreso de datos.
