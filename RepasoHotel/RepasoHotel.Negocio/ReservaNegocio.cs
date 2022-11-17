@@ -55,10 +55,14 @@ namespace ProyectoHotel.Negocio
             //Declaración de variables
             HabitacionDatos _habitacionDatos = new HabitacionDatos();
             List<Habitacion> _totalHabitaciones = new List<Habitacion>();
+            HotelDatos _hotelDatos = new HotelDatos();
+            List<Hotel> _totalHoteles = new List<Hotel>();
             List<Reserva> _totalReservas = new List<Reserva>();
 
 
             _totalReservas = _reservaDatos.TraerPorRegistro(888086); //Guardo en la lista '_totalReservas' los datos de todas las reservas por nro de registro que me trae la capa de Acceso a datos
+
+            _totalHoteles = _hotelDatos.Traer(888086); //Guardo en la lista '_totalHoteles' los datos de todas los hoteles por nro de registro que me trae la capa de Acceso a datos
 
             _totalHabitaciones = _habitacionDatos.TraerPorHotel(idHotel); //Guardo en la lista '_totalHabitaciones' los datos de todas las habitaciones por hotel (idHotel) que me trae la capa de Acceso a datos
 
@@ -79,6 +83,7 @@ namespace ProyectoHotel.Negocio
 
             else
             {
+                
                 foreach (Reserva r in _totalReservas)
                 {
                     if (r.IdHabitacion == nuevaReserva.IdHabitacion) //Regla de negocio que chequea si la habitacion a cargar en la reserva ya está reservada para la fecha indicada por el usuario, caso afirmativo se lo comunico al user mediante excepcion custom
@@ -92,6 +97,14 @@ namespace ProyectoHotel.Negocio
                         {
                             throw new HabitacionReservadaException(nuevaReserva.IdHabitacion, r.FechaIngreso, r.FechaEgreso);
                         }
+                    }
+                }
+
+                foreach (Hotel ho in _totalHoteles)
+                {
+                    if (_totalHoteles.Find(reg => reg.Id.ToString() == idHotel) == null)
+                    {
+                        throw new HotelInvalidoException();
                     }
                 }
 

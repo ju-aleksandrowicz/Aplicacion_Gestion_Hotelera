@@ -8,7 +8,7 @@ namespace ProyectoHotel.Negocio.Excepciones
 {
     public class ObjetoInvalidoException : Exception
     {
-        public ObjetoInvalidoException(string objeto) : base ("ERROR! El " + objeto + " ingresado es inválido, intente nuevamente.")
+        public ObjetoInvalidoException(string objeto) : base ("ERROR! El " + objeto + " ingresado es inválido y/o no existe, intente nuevamente.")
         {
 
         }

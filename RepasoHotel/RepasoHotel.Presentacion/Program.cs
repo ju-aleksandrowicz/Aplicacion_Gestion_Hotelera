@@ -829,6 +829,8 @@ namespace ProyectoHotel.Presentacion
             string _acumulador = "";
             bool _flag;
             string _idCliente;
+            string _nombreCliente = "";
+            string _apellidoCliente = "";
             int _idClienteValidado = 0;
             //----------------------------------------------
 
@@ -879,7 +881,16 @@ namespace ProyectoHotel.Presentacion
                         ;
                 }
 
-                Console.WriteLine("Listado de todas las reservas para el cliente con ID " + _idClienteValidado + ":" + Environment.NewLine + _acumulador + Environment.NewLine);
+                foreach (Cliente c in _listadoClientes)
+                {
+                    if (c.Id == _idClienteValidado)
+                    {
+                        _nombreCliente = c.Nombre;
+                        _apellidoCliente = c.Apellido;
+                    }
+                }
+
+                Console.WriteLine("Listado de todas las reservas para el cliente con ID (#" + _idClienteValidado + ") cuyo nombre es " + _nombreCliente + " " + _apellidoCliente + ":" + Environment.NewLine + _acumulador + Environment.NewLine);
 
                 Console.WriteLine("Presione Enter para elegir otra opción");
 
