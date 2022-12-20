@@ -12,7 +12,7 @@
 
 ### - Agustín Gutiérrez
 
-![Foto de perfil de Agustín Gutiérrez](https://github.com/gutipy/CAI-TP_GRUPAL-Hotel/blob/bc72f5430ffbf8da2d4bef8d2cf6aadfbd787e24/Imagenes/perfil_agustin.jpg)
+![Foto de perfil de Agustín Gutiérrez](https://github.com/ju-aleksandrowicz/Aplicacion_Gestion_Hotelera/blob/main/Imagenes/perfil_agustin.jpg)
 
 Nacido en Buenos Aires, Argentina. 26 años. Está cursando las últimas 5 materias de la carrera de Lic. en Sistemas.
 
@@ -22,7 +22,7 @@ Tiene como objetivo profesional la búsqueda de aprendizaje de nuevos conocimien
 
 ### - Julian Aleksandrowicz
 
-![Foto de perfil de Julián Aleksandrowicz](https://github.com/gutipy/CAI-TP_GRUPAL-Hotel/blob/f05c9549beb923bda129206b6a797e33f29f0e74/Imagenes/perfil_julian.jpeg)
+![Foto de perfil de Julián Aleksandrowicz](https://github.com/ju-aleksandrowicz/Aplicacion_Gestion_Hotelera/blob/main/Imagenes/perfil_julian.jpeg)
 
 Nacido en Buenos Aires, Argentina. 28 años. Está cursando las últimas 4 materias de la carrera de Lic. en Sistemas.
 
@@ -32,7 +32,7 @@ Dentro de su plan de desarrollo profesional se encuentra en búsqueda de una opo
 
 ### - Tomás Hardoy
 
-![Foto de perfil de Tomás Hardoy](https://github.com/gutipy/CAI-TP_GRUPAL-Hotel/blob/41c763809828720df8a759de7fc895f6b8939797/Imagenes/tomas_hardoy1.png)
+![Foto de perfil de Tomás Hardoy](https://github.com/ju-aleksandrowicz/Aplicacion_Gestion_Hotelera/blob/main/Imagenes/tomas_hardoy1.png)
 
 Nacido en Buenos Aires, Argentina. 24 años. Está cursando las últimas 4 materias de la carrera de Lic. en Sistemas.
 
